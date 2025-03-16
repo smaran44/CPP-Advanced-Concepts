@@ -41,6 +41,8 @@ int main() {
     p1.name = "Alice";  
     cout << "Name: " << p1.name << endl;
 
+   // p1.age = 22;  // Error: 'int Person::age' is private within this context
+
     // Private member access (Through Getter & Setter)
     p1.setAge(25);  
     cout << "Age: " << p1.getAge() << endl;
