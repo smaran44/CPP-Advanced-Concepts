@@ -1,4 +1,8 @@
 /*Polymorphism allows functions to behave differently based on the object that calls them.
+
+polymorphism is the ability of objects to take on different forms or behave in different ways depending
+on the context in which they are used
+
 👉 It is of two types:
 
 Compile-time Polymorphism (Function Overloading)
