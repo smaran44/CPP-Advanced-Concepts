@@ -47,9 +47,8 @@ int main() {
     shape1 = &c;
     shape1->draw();  // Calls Circle's draw() function
 
-    // 🔹 Assign Rectangle object to Shape pointer
-    shape1 = &r;
-    shape1->draw();  // Calls Rectangle's draw() function
+    // creating without pointer
+    r.draw();  // Calls Rectangle's draw() function
 
     return 0;
 }
