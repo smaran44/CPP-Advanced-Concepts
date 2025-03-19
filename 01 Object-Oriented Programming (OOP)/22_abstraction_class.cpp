@@ -74,11 +74,13 @@ int main() {
     animal1->makeSound();  // Calls overridden function from Dog class
     delete animal1;        // Proper cleanup (calls destructors in order)
 
-    cout << "\nCreating Cat object:\n";
-    Animal* animal2 = new Cat("Whiskers");
-    animal2->showName();   // Calls showName() from Animal class
-    animal2->makeSound();  // Calls overridden function from Cat class
-    delete animal2;        // Proper cleanup (calls destructors in order)
+    cout << "\nCreating Cat object (without pointers):\n";
+    // Creating object without dynamic allocation (stack memory)
+    Cat animal2("Whiskers"); 
+    animal2.showName();   // Calls showName() from Animal class
+    animal2.makeSound();  // Calls overridden function from Cat class
+
+    // Destructor will be called automatically when 'animal2' goes out of scope
 
     return 0;
 }
