@@ -11,7 +11,7 @@ int main() {
     // Pushing elements onto the stack
     s.push(10);
     s.push(20);
-    s.push(30);
+    s.push(15);
 
     // Displaying the top element
     cout << "Top element: " << s.top() << endl;
