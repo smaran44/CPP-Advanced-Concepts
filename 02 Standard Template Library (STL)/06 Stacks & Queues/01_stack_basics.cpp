@@ -23,6 +23,22 @@ int main() {
 
     // Checking if the stack is empty
     if (s.empty()) {
+        cout << "Stack s is empty.\n";
+    } else {
+        cout << "Stack s is not empty.\n";
+    }
+
+    stack <int> s2;
+    swap(s, s2); // Swapping two stacks
+    // s will become empty
+
+    if (s.empty()) {
+        cout << "Stack s2 is empty.\n";
+    } else {
+        cout << "Stack s2 is not empty.\n";
+    }
+
+    if (s2.empty()) {
         cout << "Stack is empty.\n";
     } else {
         cout << "Stack is not empty.\n";

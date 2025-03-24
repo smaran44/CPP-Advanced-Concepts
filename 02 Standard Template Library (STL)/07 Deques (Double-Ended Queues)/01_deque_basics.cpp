@@ -28,6 +28,7 @@ int main() {
     // Accessing front and back elements
     cout << "Front element: " << dq.front() << endl;
     cout << "Back element: " << dq.back() << endl;
+    cout <<"second element: " << dq[1] << endl;
 
     return 0;
 }

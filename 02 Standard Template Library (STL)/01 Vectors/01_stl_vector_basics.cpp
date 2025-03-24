@@ -22,6 +22,10 @@ int main() {
     // Accessing elements using the at() method (safe access)
     cout << "Element at index 1 using at(): " << numbers.at(1) << endl;
 
+    // front and back
+    cout << "First element using front(): " << numbers.front() << endl;
+    cout << "Last element using back(): " << numbers.back() << endl;
+
     // Using a loop to iterate over the vector
     cout << "Vector elements: ";
     for (int i = 0; i < numbers.size(); i++) {
@@ -33,6 +37,22 @@ int main() {
     cout << "Using range-based for loop: ";
     for (int num : numbers) {
         cout << num << " ";
+    }
+    cout << endl;
+
+    // vector with size and same element
+    vector<int> vec(3,10);
+
+    for (int vec : vec) {
+        cout << vec << " ";
+    }
+    cout << endl;
+
+    //copy
+    vector <int> vec2(numbers);
+
+    for (int vec : vec2) {
+        cout << vec << " ";
     }
     cout << endl;
 

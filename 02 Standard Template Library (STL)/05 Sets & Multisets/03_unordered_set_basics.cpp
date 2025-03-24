@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
     // Definition: An unordered_set stores unique elements using hashing.
+    //it provides O(1) average time complexity for insert, delete, and search operations.
 
     unordered_set<int> numbers;
 
@@ -20,6 +21,9 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
+
+    // lower_bound and upper_bound are not available in unordered_set
+    // Instead, we can use find() to check for existence
 
     return 0;
 }
