@@ -7,6 +7,10 @@
         1. unique_ptr - Sole ownership of an object (non-copyable)
         2. shared_ptr - Shared ownership (reference counting)
         3. weak_ptr - Avoids circular references with shared_ptr
+
+    unique pointer:
+    - A unique pointer is a smart pointer that owns and manages another object through a pointer and disposes of that object when the unique pointer goes out of scope.
+    - It cannot be copied, only moved. This ensures that there is only one unique pointer to a given resource at any time.
 */
 
 #include <iostream>
