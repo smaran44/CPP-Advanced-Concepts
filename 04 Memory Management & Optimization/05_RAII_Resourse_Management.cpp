@@ -11,32 +11,37 @@
 
 using namespace std;
 
+// Class implementing RAII (Resource Acquisition Is Initialization)
 class RAII_Resource {
 public:
+    // Constructor: Acquires the resource
     RAII_Resource() {
-        resource = new int(500); // Acquiring resource
+        resource = new int(500); // Dynamically allocating memory (heap)
         cout << "Resource acquired: " << *resource << endl;
     }
     
+    // Destructor: Releases the resource automatically
     ~RAII_Resource() {
-        delete resource; // Releasing resource automatically
+        delete resource; // Freeing allocated memory
         cout << "Resource released." << endl;
     }
     
+    // Method to display the resource value
     void showValue() {
         cout << "Resource value: " << *resource << endl;
     }
 
 private:
-    int* resource;
+    int* resource; // Raw pointer to dynamically allocated resource
 };
 
 int main() {
     cout << "Using RAII for resource management:" << endl;
-    {
-        RAII_Resource obj; // Resource acquired
+    
+    { // Creating a scope to demonstrate RAII
+        RAII_Resource obj; // ✅ Resource is acquired in constructor
         obj.showValue();
-    } // Resource released automatically when obj goes out of scope
+    } // ✅ Resource is automatically released when obj goes out of scope
     
     return 0;
 }
