@@ -16,20 +16,20 @@ Key Concepts:
 - They can be passed directly to `std::thread` without needing a separate function.
 */
 
-#include <iostream>
-#include <thread>
+#include <iostream>   // For input and output operations
+#include <thread>     // For working with threads
 
 int main() {
     std::cout << "Main thread started.\n";
-    
+
     // Creating a thread using a lambda function
     std::thread t1([]() {
         std::cout << "Hello from Lambda Thread!\n";
     });
-    
-    // Joining the thread
+
+    // Joining the thread to ensure it completes before main() continues
     t1.join();
-    
+
     std::cout << "Main thread finished.\n";
     return 0;
 }
