@@ -20,29 +20,32 @@ How to Fix?
 - We'll cover mutex in the next section.
 */
 
-#include <iostream>
-#include <thread>
+#include <iostream>   // For input and output operations
+#include <thread>     // For working with multiple threads
 
-int counter = 0; // Shared variable
+int counter = 0;  // Shared variable (global variable)
 
+// Function executed by multiple threads to increment the counter
 void incrementCounter() {
     for (int i = 0; i < 10000; i++) {
-        counter++; // Race condition: multiple threads modifying the same variable
+        counter++;  // Critical section: multiple threads modifying `counter` simultaneously
     }
 }
 
 int main() {
     std::cout << "Main thread started.\n";
-    
+
+    // Creating two threads that run the incrementCounter function
     std::thread t1(incrementCounter);
     std::thread t2(incrementCounter);
-    
+
+    // Wait for both threads to finish execution
     t1.join();
     t2.join();
-    
-    // Expected result: 20000, but actual result may be inconsistent
+
+    // Expected result: 20000, but due to race conditions, the actual result may be inconsistent
     std::cout << "Final Counter Value: " << counter << "\n";
-    
+
     std::cout << "Main thread finished.\n";
     return 0;
 }
