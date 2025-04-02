@@ -29,34 +29,37 @@ How to Use a Mutex?
 
  */
 
- #include <iostream>
- #include <thread>
- #include <mutex>  // Include mutex library
+ #include <iostream>   // For input and output operations
+ #include <thread>     // For working with threads
+ #include <mutex>      // For using mutex locks
+ 
  using namespace std;
  
- int counter = 0; // Shared resource
- mutex mtx; // Mutex for synchronization
+ int counter = 0;  // Shared resource (global variable)
+ mutex mtx;        // Mutex for synchronization
  
- // Function that increments counter in a loop
+ // Function executed by multiple threads to increment the counter
  void increment(int id) {
      for (int i = 0; i < 100000; ++i) {
-         mtx.lock();  // Lock the mutex
-         ++counter;   // Critical section
-         mtx.unlock(); // Unlock the mutex
+         mtx.lock();   // Lock the mutex to ensure only one thread modifies `counter` at a time
+         ++counter;    // Critical section: modifying shared resource
+         mtx.unlock(); // Unlock the mutex after updating the counter
      }
+     
+     // Print when the thread finishes execution
      cout << "Thread " << id << " finished execution.\n";
  }
  
  int main() {
-     // Creating multiple threads
+     // Creating two threads that run the increment function
      thread t1(increment, 1);
      thread t2(increment, 2);
      
-     // Joining threads to ensure they complete execution
+     // Wait for both threads to finish execution
      t1.join();
      t2.join();
      
-     // Display final counter value
+     // Display the final value of the counter after both threads complete
      cout << "Final counter value: " << counter << "\n";
      
      return 0;
