@@ -1,78 +1,94 @@
-# C++ Advanced Concepts 🚀
+CPP-Advanced-For-DSA 🚀
+Welcome to CP-DSA-Concepts-C++! This repository is crafted to help you master Competitive Programming and Data Structures & Algorithms (DSA) using C++. It includes structured notes, examples, and concepts explained in a beginner-friendly and practice-focused way.
 
-Welcome to **CPP-Advanced-Concepts**! This repository is designed to take your C++ skills to the next level, covering high-performance programming techniques and advanced concepts with well-structured explanations, practical examples, and hands-on exercises.
+🔰 Start Here First
+Before diving into this repository, make sure you’ve gone through the foundational concepts in CPP-Fundamentals: https://github.com/smaran44/CPP-Fundamentals
 
-## 📌 Topics Covered
+This covers all the essential C++ topics you must know before starting CP/DSA: Master Variables & Operators, User Input & Math, Conditionals, Loops, Functions & Scope, Arrays, Strings, Pointers & Memory Management, Advanced Functions & Recursion, Structs & Enums, File Handling, Dynamic Memory Allocation, and Text Processing.
 
-- **Object-Oriented Programming** – Classes, Inheritance, Polymorphism & More.
-- **STL Containers & Algorithms** – Vectors, Maps, Sets, Stacks, Queues, Lists, Deques, Sorting, Searching & Efficient Traversals.
-- **Multithreading & Concurrency** – Threads, Mutex, Race Conditions & Deadlocks.
-- **Memory Management** – Smart Pointers, RAII & Memory Leak Prevention.
-- **Templates & Generic Programming** – Function, Class & Variadic Templates.
-- **Exception Handling & Debugging** – Custom Exceptions & Debugging Techniques.
-- **Software Design Principles** – SOLID Principles & Best Practices for Scalable Code.
-- **Efficient C++ Programming** – Move Semantics, `constexpr`, and Optimized DS Algorithms.
+📌 Topics Covered
+Object Oriented Programming – OOP, Constructors, Inheritance, Polymorphism & More
+Standard Template Library (STL) – Vectors, Maps, Sets, Deques, Queues, Algorithms & Iterators
+Mathematics for CP – Primes, GCD/LCM, Modulo, Bitwise Logic, Number Theory
+Core Problem Solving – Recursion, Backtracking, Binary Search, Sliding Window
+Data Structures – Linked Lists, Trees, Stacks, Queues, Heaps, Tries, Hashing
+Algorithms – Graphs, Dynamic Programming, Topological Sort, Union-Find
+Advanced Concepts – Segment Trees, Fenwick Tree, Mo's Algorithm, Convex Hull
 
-## 📂 Repository Structure
+📂 Repository Structure
 
-```
-CPP-Advanced-Concepts/
-│── 01_Object_Oriented_Programming/     # Classes, Inheritance, Polymorphism
-│── 02_STL_Containers_&_Algorithms/     # Vectors, Maps, Sorting, Searching
-│── 03_Multithreading_&_Concurrency/    # Threads, Mutex, Race Conditions
-│── 04_Memory_Management/               # Smart Pointers, RAII
-│── 05_Templates_&_Generic_Programming/ # Function, Class & Variadic Templates
-│── 06_Exception_Handling_&_Debugging/  # Custom Exceptions, Debugging Techniques
-│── 07_Software_Design_Principles/      # SOLID Principles, Best Practices
-│── 08_Efficient_C++_Programming/       # Move Semantics, constexpr, Optimization
-│── README.md                           # Repository Documentation
-```
+CP-DSA-Concepts-C++/
+│
+├── 01_Object-Oriented-Programming/
+│   └── OOP_Basics/
+│       ├── Intro to OOP, Constructors, Inheritance, Polymorphism, Encapsulation, Overloading, Friend Functions
+│
+├── 02_Standard_Library_Essentials/
+│   ├── STL_Containers/ – Vectors, Pairs, Tuples, Sets, Maps, Deque, Priority Queue
+│   └── STL_Algorithms_and_Iterators/ – Iterators, Lambdas, Algorithms (sort, find, etc.)
+│
+├── 03_Mathematics_for_CP/
+│   ├── Basic_Math/ – Primes, GCD/LCM, Modulo, BinExp, Combinatorics
+│   ├── Number_Theory/ – Fermat’s Theorem, Euler’s Totient, Modular Inverse
+│   └── Bit_Manipulation/ – Basics, Bit Operations, Bit Tricks
+│
+├── 04_Core_Problem_Solving/
+│   ├── Recursion_Backtracking/ – Recursion Basics, Hanoi, N-Queens, Subsets, Sudoku
+│   ├── Searching_Sorting/ – Sorting, Binary Search, Upper/Lower Bounds, Comparators
+│   └── Sliding_Window_Two_Pointers/ – Max Window, Anagrams, Unique Substring
+│
+├── 05_Data_Structures/
+│   ├── Linked_Lists/ – Singly, Doubly, Circular, Cycle Detection, Reversal
+│   ├── Stack_and_Queue/ – Stack, Queue, Monotonic Stack, Sliding Window
+│   ├── Trees_and_BST/ – Binary Tree, BST Ops, Traversals, LCA
+│   ├── Heap_and_Hashing/ – Min/Max Heap, Heap Problems, HashMaps
+│   └── Trie/ – Basics, Word Search, Prefix Problems
+│
+├── 06_Algorithms/
+│   ├── Graphs/ – BFS, DFS, Dijkstra, Kruskal, Prim, Union Find, Topo Sort
+│   └── Dynamic_Programming/ – 1D DP, 2D DP, LCS, LIS, Knapsack
+│
+├── 07_Advanced_Concepts/
+│   ├── Segment_Trees_Fenwick/ – Segment Tree, Fenwick Tree (BIT)
+│   └── Other_Advanced_Topics/ – Mo’s Algorithm, Convex Hull
+│
+├── README.md
+└── LICENSE
+🛠 Prerequisites
+Solid grasp of C++ basics (preferably via CPP-Fundamentals)
 
-## 🛠 Prerequisites
+A working C++ compiler like G++, MinGW, or an IDE (VS Code, CLion)
 
-Before running the programs, ensure you have:
+Consistent practice with problems
 
-- A C++ compiler (G++ for Linux/Mac, MinGW for Windows, or an IDE like VS Code/CLion)
-- Strong understanding of C++ fundamentals
+🚀 Getting Started
 
-## 🚀 Getting Started
+Clone this repository:
+git clone https://github.com/smaran44/CPP-Advanced-For-DSA.git
 
-Clone the repository:
-```bash
-git clone https://github.com/smaran44/CPP-Advanced-Concepts.git
-```
-Navigate to the project directory:
-```bash
-cd CPP-Advanced-Concepts
-```
-Compile and run a C++ file:
-```bash
+Navigate into the folder:
+cd CP-DSA-Concepts-C++
+
+Compile and run a sample file:
 g++ filename.cpp -o output
 ./output
-```
 
-## 🤝 Contributing
+🤝 Contributing
+Fork this repo
+Create a new branch
+Make your changes with clear commit messages
+Submit a pull request – all contributions are welcome!
 
-Contributions are welcome! If you'd like to improve this repository:
+📜 License
+This project is licensed under the MIT License – you are free to use and share with credit.
 
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a pull request
+⭐ Support
+If this repo helps you, please ⭐ star it and share with your fellow learners.
 
-## 📜 License
+📩 Contact
+Have feedback or questions? Feel free to reach out or open an issue.
 
-This project is licensed under the MIT License. Feel free to use and share it.
+📬 Connect With Me
+🔗 LinkedIn – smaran-yanapu
 
-## ⭐ Show Your Support
-
-If you find this repository helpful, please ⭐ star the repository and share it with others who are learning C++!
-
-## 📩 Contact
-
-Have any questions or suggestions? Feel free to open an issue or reach out!
-
-📬 **Connect With Me**  
-🔗 LinkedIn: [www.linkedin.com/in/smaran-yanapu](https://www.linkedin.com/in/smaran-yanapu)
-
-Happy Coding! 🚀💻
+Happy Coding and Problem Solving! 🚀💡
