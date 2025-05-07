@@ -19,7 +19,7 @@ Advanced Concepts – Segment Trees, Fenwick Tree, Mo's Algorithm, Convex Hull
 
 CP-DSA-Concepts-C++/
 │
-├── 01_Object-Oriented-Programming/
+├── 01_CPP_Fundamentals/
 │   └── OOP_Basics/
 │       ├── Intro to OOP, Constructors, Inheritance, Polymorphism, Encapsulation, Overloading, Friend Functions
 │
@@ -54,6 +54,7 @@ CP-DSA-Concepts-C++/
 │
 ├── README.md
 └── LICENSE
+
 🛠 Prerequisites
 Solid grasp of C++ basics (preferably via CPP-Fundamentals)
 
