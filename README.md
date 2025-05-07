@@ -18,42 +18,34 @@ Advanced Concepts – Segment Trees, Fenwick Tree, Mo's Algorithm, Convex Hull
 📂 Repository Structure
 
 CP-DSA-Concepts-C++/
-│
-├── 01_CPP_Fundamentals/
-│   └── OOP_Basics/
-│       ├── Intro to OOP, Constructors, Inheritance, Polymorphism, Encapsulation, Overloading, Friend Functions
-│
+├── 01_Object_Oriented_Programming/
+│   └── OOP_Basics/ – Intro to OOP, Constructors, Inheritance, Polymorphism, Encapsulation, Overloading, Friend Functions
 ├── 02_Standard_Library_Essentials/
 │   ├── STL_Containers/ – Vectors, Pairs, Tuples, Sets, Maps, Deque, Priority Queue
 │   └── STL_Algorithms_and_Iterators/ – Iterators, Lambdas, Algorithms (sort, find, etc.)
-│
 ├── 03_Mathematics_for_CP/
 │   ├── Basic_Math/ – Primes, GCD/LCM, Modulo, BinExp, Combinatorics
 │   ├── Number_Theory/ – Fermat’s Theorem, Euler’s Totient, Modular Inverse
 │   └── Bit_Manipulation/ – Basics, Bit Operations, Bit Tricks
-│
 ├── 04_Core_Problem_Solving/
 │   ├── Recursion_Backtracking/ – Recursion Basics, Hanoi, N-Queens, Subsets, Sudoku
 │   ├── Searching_Sorting/ – Sorting, Binary Search, Upper/Lower Bounds, Comparators
 │   └── Sliding_Window_Two_Pointers/ – Max Window, Anagrams, Unique Substring
-│
 ├── 05_Data_Structures/
 │   ├── Linked_Lists/ – Singly, Doubly, Circular, Cycle Detection, Reversal
 │   ├── Stack_and_Queue/ – Stack, Queue, Monotonic Stack, Sliding Window
 │   ├── Trees_and_BST/ – Binary Tree, BST Ops, Traversals, LCA
 │   ├── Heap_and_Hashing/ – Min/Max Heap, Heap Problems, HashMaps
 │   └── Trie/ – Basics, Word Search, Prefix Problems
-│
 ├── 06_Algorithms/
 │   ├── Graphs/ – BFS, DFS, Dijkstra, Kruskal, Prim, Union Find, Topo Sort
 │   └── Dynamic_Programming/ – 1D DP, 2D DP, LCS, LIS, Knapsack
-│
 ├── 07_Advanced_Concepts/
 │   ├── Segment_Trees_Fenwick/ – Segment Tree, Fenwick Tree (BIT)
 │   └── Other_Advanced_Topics/ – Mo’s Algorithm, Convex Hull
-│
 ├── README.md
 └── LICENSE
+
 
 🛠 Prerequisites
 Solid grasp of C++ basics (preferably via CPP-Fundamentals)
