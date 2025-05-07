@@ -17,41 +17,69 @@ Advanced Concepts – Segment Trees, Fenwick Tree, Mo's Algorithm, Convex Hull
 
 📂 Repository Structure
 
-CP-DSA-Concepts-C++/
-├── 01_Object_Oriented_Programming/
-│   └── OOP_Basics/ – Intro to OOP, Constructors, Inheritance, Polymorphism, Encapsulation, Overloading, Friend Functions
-├── 02_Standard_Library_Essentials/
-│   ├── STL_Containers/ – Vectors, Pairs, Tuples, Sets, Maps, Deque, Priority Queue
-│   └── STL_Algorithms_and_Iterators/ – Iterators, Lambdas, Algorithms (sort, find, etc.)
-├── 03_Mathematics_for_CP/
-│   ├── Basic_Math/ – Primes, GCD/LCM, Modulo, BinExp, Combinatorics
-│   ├── Number_Theory/ – Fermat’s Theorem, Euler’s Totient, Modular Inverse
-│   └── Bit_Manipulation/ – Basics, Bit Operations, Bit Tricks
-├── 04_Core_Problem_Solving/
-│   ├── Recursion_Backtracking/ – Recursion Basics, Hanoi, N-Queens, Subsets, Sudoku
-│   ├── Searching_Sorting/ – Sorting, Binary Search, Upper/Lower Bounds, Comparators
-│   └── Sliding_Window_Two_Pointers/ – Max Window, Anagrams, Unique Substring
-├── 05_Data_Structures/
-│   ├── Linked_Lists/ – Singly, Doubly, Circular, Cycle Detection, Reversal
-│   ├── Stack_and_Queue/ – Stack, Queue, Monotonic Stack, Sliding Window
-│   ├── Trees_and_BST/ – Binary Tree, BST Ops, Traversals, LCA
-│   ├── Heap_and_Hashing/ – Min/Max Heap, Heap Problems, HashMaps
-│   └── Trie/ – Basics, Word Search, Prefix Problems
-├── 06_Algorithms/
-│   ├── Graphs/ – BFS, DFS, Dijkstra, Kruskal, Prim, Union Find, Topo Sort
-│   └── Dynamic_Programming/ – 1D DP, 2D DP, LCS, LIS, Knapsack
-├── 07_Advanced_Concepts/
-│   ├── Segment_Trees_Fenwick/ – Segment Tree, Fenwick Tree (BIT)
-│   └── Other_Advanced_Topics/ – Mo’s Algorithm, Convex Hull
-├── README.md
-└── LICENSE
-
+CPP-Advanced-For-DSA/
+│
+├── 01_Object_Oriented_Programming/          # Learn the core principles of OOP in C++
+│   ├── Classes_and_Objects/                # Learn the core foundation of OOP
+│   ├── Inheritance/                        # Dive into Single, Multiple, Multilevel, Hierarchical & Hybrid Inheritance
+│   ├── Polymorphism/                       # Understand Compile-time & Runtime polymorphism
+│   ├── Encapsulation_and_Abstraction/      # Secure and modularize your code
+│   ├── Operator_Overloading_and_Function_Overloading/ # Customize operators and functions
+│   ├── Virtual_Functions_and_Pure_Virtual_Functions/ # Master dynamic binding and polymorphism
+│   ├── Function_Overriding/                # Explore method redefinition in derived classes
+│   ├── Diamond_Problem/                    # Solve multiple inheritance challenges in C++
+│   ├── Constructors_and_Destructors/        # Automate object creation and cleanup
+│   ├── Abstract_Classes_and_Interfaces/     # Implement abstraction efficiently
+│   ├── Friend_Functions_and_Friend_Classes/ # Access private members of a class while maintaining encapsulation
+│
+├── 02_Standard_Library_Essentials/         # Explore C++ standard library features for DSA
+│   ├── STL_Containers/                     # Essential Data Structures
+│   │   ├── Vectors/                        # Learn about vectors
+│   │   ├── Pairs_and_Tuples/               # Understand pairs and tuples
+│   │   ├── Maps_and_Multimaps/             # Learn about maps and multimaps
+│   │   ├── Unordered_Maps_and_Hashing/     # Understand unordered maps and hashing techniques
+│   │   ├── Sets_and_Multisets/             # Work with sets and multisets
+│   │   ├── Stacks_and_Queues/              # Learn stack and queue operations
+│   │   ├── Deques/                         # Explore deques (double-ended queues)
+│   │   ├── Lists/                          # Learn list data structures
+│   ├── Key_STL_Features/                   # Deep Dive Sections on key STL features
+│   │   ├── Iterators_and_Lambda_Functions/ # Efficient traversal and inline function usage
+│   │   ├── STL_Algorithms/                 # Explore STL algorithms for searching, sorting, and manipulation
+│   │   ├── Advanced_Data_Structures/       # Learn about segment trees, Fenwick trees (BIT), and tries
+│   │   ├── Utility_Functions/              # Handy functions for mathematical and bitwise operations
+│
+├── 03_Mathematics_for_CP/                  # Mathematical concepts essential for competitive programming
+│   ├── Basic_Math/                         # Essential math knowledge for problem-solving
+│   ├── Number_Theory/                      # Focus on prime numbers, divisibility, etc.
+│   ├── Bit_Manipulation/                   # Efficient manipulation of bits for optimized solutions
+│
+├── 04_Core_Problem_Solving/                # Essential problem-solving techniques for CP
+│   ├── Recursion_Backtracking/             # Deep dive into recursive and backtracking algorithms
+│   ├── Searching_Sorting/                  # Fundamental search and sort algorithms
+│   ├── Sliding_Window_Two_Pointers/        # Optimized approaches for range and sequence problems
+│
+├── 05_Data_Structures/                     # Advanced data structures for solving complex problems
+│   ├── Linked_Lists/                       # Learn the functionality of singly and doubly linked lists
+│   ├── Stack_and_Queue/                    # In-depth study of stack and queue operations
+│   ├── Trees_and_BST/                      # Learn about trees and binary search trees (BST)
+│   ├── Heap_and_Hashing/                   # Explore heaps and hash-based data structures
+│   ├── Trie/                               # Learn how to solve problems using trie data structure
+│   ├── Priority_Queues_and_Hashing/        # Efficiently handle data with priority queues and hash maps
+│
+├── 06_Algorithms/                          # Explore advanced algorithms for problem-solving
+│   ├── Graphs/                             # Dive into graph theory and traversal techniques
+│   ├── Dynamic_Programming/                # Master DP techniques for optimization problems
+│
+├── 07_Advanced_Concepts/                   # Optional but helpful topics for competitive programming
+│   ├── Segment_Trees_Fenwick/              # Learn advanced range query algorithms
+│   ├── Other_Advanced_Topics/              # Additional advanced concepts for tackling tough problems
+│
+├── README.md                               # Repository documentation
+└── LICENSE                                 # Licensing information for the repository
 
 🛠 Prerequisites
 Solid grasp of C++ basics (preferably via CPP-Fundamentals)
-
 A working C++ compiler like G++, MinGW, or an IDE (VS Code, CLion)
-
 Consistent practice with problems
 
 🚀 Getting Started
