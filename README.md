@@ -15,8 +15,8 @@ Data Structures – Linked Lists, Trees, Stacks, Queues, Heaps, Tries, Hashing
 Algorithms – Graphs, Dynamic Programming, Topological Sort, Union-Find
 Advanced Concepts – Segment Trees, Fenwick Tree, Mo's Algorithm, Convex Hull
 
-📂 Repository Structure
-
+## 📂 Repository Structure
+```
 CPP-Advanced-For-DSA/
 │
 ├── 01_Object_Oriented_Programming/          # Learn the core principles of OOP in C++
@@ -76,40 +76,45 @@ CPP-Advanced-For-DSA/
 │
 ├── README.md                               # Repository documentation
 └── LICENSE                                 # Licensing information for the repository
+```
 
-🛠 Prerequisites
-Solid grasp of C++ basics (preferably via CPP-Fundamentals)
-A working C++ compiler like G++, MinGW, or an IDE (VS Code, CLion)
-Consistent practice with problems
+## 🛠 Prerequisites
+Before running the programs, ensure you have:
+- - solid grasp of C++ basics (preferably via https://github.com/smaran44/CPP-Fundamentals)
+- A **C++ compiler** (G++ for Linux/Mac, MinGW for Windows, or an IDE like VS Code/CodeBlocks/CLion)
+- Basic understanding of programming concepts
 
-🚀 Getting Started
+## 🚀 Getting Started
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/smaran44/CPP-Advanced-For-DSA.git
+   ```
+2. **Navigate to the project directory**
+   ```sh
+   cd CPP-Advanced-For-DSA
+   ```
+3. **Compile and run a C++ file**
+   ```sh
+   g++ filename.cpp -o output
+   ./output
+   ```
 
-Clone this repository:
-git clone https://github.com/smaran44/CPP-Advanced-For-DSA.git
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve this repository:
+- Fork the repository
+- Create a new branch
+- Commit your changes
+- Open a pull request
 
-Navigate into the folder:
-cd CP-DSA-Concepts-C++
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to use and share it.
 
-Compile and run a sample file:
-g++ filename.cpp -o output
-./output
-
-🤝 Contributing
-Fork this repo
-Create a new branch
-Make your changes with clear commit messages
-Submit a pull request – all contributions are welcome!
-
-📜 License
-This project is licensed under the MIT License – you are free to use and share with credit.
-
-⭐ Support
-If this repo helps you, please ⭐ star it and share with your fellow learners.
+⭐ Show Your Support
+If you find this repository helpful, please ⭐ star the repository and share it with others who are learning C programming!
 
 📩 Contact
-Have feedback or questions? Feel free to reach out or open an issue.
+Have any questions or suggestions? Feel free to open an issue or reach out!
 
-📬 Connect With Me
-🔗 LinkedIn – smaran-yanapu
+📬 Connect With Me 🔗 LinkedIn: www.linkedin.com/in/smaran-yanapu
 
-Happy Coding and Problem Solving! 🚀💡
+Happy Coding! 🚀💻
