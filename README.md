@@ -2,7 +2,7 @@ CPP-Advanced-For-DSA 🚀
 Welcome to CP-DSA-Concepts-C++! This repository is crafted to help you master Competitive Programming and Data Structures & Algorithms (DSA) using C++. It includes structured notes, examples, and concepts explained in a beginner-friendly and practice-focused way.
 
 🔰 Start Here First
-Before diving into this repository, make sure you’ve gone through the foundational concepts in CPP-Fundamentals: https://github.com/smaran44/CPP-Fundamentals
+Before diving into this repository, make sure you’ve gone through the foundational concepts in [CPP Fundementals](https://github.com/smaran44/CPP-Fundamentals)
 
 This covers all the essential C++ topics you must know before starting CP/DSA: Master Variables & Operators, User Input & Math, Conditionals, Loops, Functions & Scope, Arrays, Strings, Pointers & Memory Management, Advanced Functions & Recursion, Structs & Enums, File Handling, Dynamic Memory Allocation, and Text Processing.
 
@@ -80,7 +80,7 @@ CPP-Advanced-For-DSA/
 
 ## 🛠 Prerequisites
 Before running the programs, ensure you have:
-- - solid grasp of C++ basics (preferably via https://github.com/smaran44/CPP-Fundamentals)
+- solid grasp of C++ basics (preferably via https://github.com/smaran44/CPP-Fundamentals)
 - A **C++ compiler** (G++ for Linux/Mac, MinGW for Windows, or an IDE like VS Code/CodeBlocks/CLion)
 - Basic understanding of programming concepts
 
