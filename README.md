@@ -80,7 +80,7 @@ CPP-Advanced-For-DSA/
 
 ## 🛠 Prerequisites
 Before running the programs, ensure you have:
-- solid grasp of C++ basics (preferably via [CPP Fundementals](https://github.com/smaran44/CPP-))
+- solid grasp of C++ basics (preferably via [CPP Fundementals](https://github.com/smaran44/CPP-Fundamentals))
 - A **C++ compiler** (G++ for Linux/Mac, MinGW for Windows, or an IDE like VS Code/CodeBlocks/CLion)
 - Basic understanding of programming concepts
 
@@ -115,6 +115,5 @@ If you find this repository helpful, please ⭐ star the repository and share it
 📩 Contact
 Have any questions or suggestions? Feel free to open an issue or reach out!
 
-📬 Connect With Me 🔗 [LinkedIn](www.linkedin.com/in/smaran-yanapu)
-
+📬 Connect With Me 🔗 LinkedIn: www.linkedin.com/in/smaran-yanapu
 Happy Coding! 🚀💻
