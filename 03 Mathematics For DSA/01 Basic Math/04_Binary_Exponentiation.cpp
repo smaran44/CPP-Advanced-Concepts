@@ -33,11 +33,54 @@ int main() {
 }
 
 /*for example 
-binaryExp(2, 5)
-= 2 * binaryExp(2, 2)^2    // because 5 is odd
-= 2 * (binaryExp(2, 1)^2)^2
-= 2 * ((2)^2)^2
-= 2 * (4)^2
-= 2 * 16
-= 32
+// Example: binaryExp(3, 5)
+
+Step 1: binaryExp(3, 5)
+  - exponent = 5 is odd
+  - Formula: 3^5 = 3 * (3^4)
+  - Call: binaryExp(3, 4)
+
+Step 2: binaryExp(3, 4)
+  - exponent = 4 is even
+  - Formula: 3^4 = (3^2) * (3^2)
+  - Call: binaryExp(3, 2)
+
+Step 3: binaryExp(3, 2)
+  - exponent = 2 is even
+  - Formula: 3^2 = (3^1) * (3^1)
+  - Call: binaryExp(3, 1)
+
+Step 4: binaryExp(3, 1)
+  - exponent = 1 is odd
+  - Formula: 3^1 = 3 * (3^0)
+  - Call: binaryExp(3, 0)
+
+Step 5: binaryExp(3, 0)
+  - exponent = 0, base case reached → return 1
+
+Unwinding the recursion:
+
+Back to Step 4: binaryExp(3, 1)
+  - half = 1
+  - Formula: 3^1 = 3 * 1 * 1 = 3
+  - Return 3
+
+Back to Step 3: binaryExp(3, 2)
+  - half = 3
+  - Formula: 3^2 = 3 * 3 = 9
+  - Return 9
+
+Back to Step 2: binaryExp(3, 4)
+  - half = 9
+  - Formula: 3^4 = 9 * 9 = 81
+  - Return 81
+
+Back to Step 1: binaryExp(3, 5)
+  - half = 81
+  - Formula: 3^5 = 3 * 81 = 243
+  - Final result: 243
+
+Final result:
+3^5 = 243
+
 */

@@ -38,13 +38,46 @@ int main() {
 }
 
 
-/*for example 
-modExp(2, 5, 13)
-= (modExp(2, 2, 13)^2 * 2) % 13     // because 5 is odd
-= ((modExp(2, 1, 13)^2)^2 * 2) % 13
-= (((2)^2)^2 * 2) % 13
-= (4^2 * 2) % 13
-= (16 * 2) % 13
-= 32 % 13
-= 6
+/*
+// Example: modExp(3, 5, 7)
+
+Step 1: modExp(3, 5, 7)
+  - b = 5 is odd
+  - Call: half = modExp(3, 2, 7)
+
+Step 2: modExp(3, 2, 7)
+  - b = 2 is even
+  - Call: half = modExp(3, 1, 7)
+
+Step 3: modExp(3, 1, 7)
+  - b = 1 is odd
+  - Call: half = modExp(3, 0, 7)
+
+Step 4: modExp(3, 0, 7)
+  - b == 0 → return 1 (base case)
+
+Unwinding the recursion:
+
+Back to Step 3: modExp(3, 1, 7)
+  - half = 1
+  - result = (1 * 1) % 7 = 1
+  - Since b = 1 is odd:
+    result = (result * 3) % 7 = (1 * 3) % 7 = 3
+  - Return 3
+
+Back to Step 2: modExp(3, 2, 7)
+  - half = 3
+  - result = (3 * 3) % 7 = 9 % 7 = 2
+  - Even exponent → return 2
+
+Back to Step 1: modExp(3, 5, 7)
+  - half = 2
+  - result = (2 * 2) % 7 = 4
+  - Since b = 5 is odd:
+    result = (4 * 3) % 7 = 12 % 7 = 5
+  - Final answer: 5
+
+Final result:
+3^5 % 7 = 5
+
 */
